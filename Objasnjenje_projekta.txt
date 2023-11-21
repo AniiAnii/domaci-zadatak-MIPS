@@ -1,0 +1,8 @@
+Domaći zadatak iz mipsa
+Studentkinja: Anica Arsić 633-2020
+
+Moje ime više samoglasnika nego suglasnika, pa sam koristila PORT A, a što se tiče PIN-a koristila sam 4 po postavci zadatka. 
+
+Na proteusu sam koristila otpornik, diodu i sam STM32F103C6. Na samom STM32 koristila sam za High speed clock: Crystal-Ceramic Resonator, a birala sam pin A 4 kao GPIO_OUTPUT, jer na njega šaljem signal iz mikrokontolera. Koristila sam HAL biblioteku za izradu domaćeg zadatka.
+
+Na GPIO_PIN_4 šaljem jedinicu i zadržavam je 5 ms, a potom menjam na nulu i nju isto zadržavam 5 ms. Ovaj proces se ponavlja 5 puta, mogla sam da završim kod i tu, ali sam napisala još jednom istu petlju kako bih pokazala da razumem postavku zadatka. Nakon izvšavanja ove dve petlje, proces će se beskonačno puta ponavljati čime je izrada domaćeg zadatka završena.
